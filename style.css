@@ -1,0 +1,130 @@
+body {
+    background: url(images/bg-tea03.jpg) left top fixed;
+    background-size: cover;
+    font-family: "Noto Sans JP", sans-serif, "Times";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.container-camp {
+    max-width: 960px;
+    text-align: center;
+}
+
+footer {
+    background-color: #a0936b;
+    margin: auto;
+
+}
+
+nav ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    text-align: center;
+}
+
+nav li {
+    display: table-cell;
+    min-width: 50px;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 5px;
+    font-family: "Times";
+}
+
+nav li.current {
+    border-bottom: 3px solid #92D050;
+}
+
+nav li:hover {
+    color: #E7DA66;
+    border-bottom: 3px solid #F0E475;
+}
+
+.my-margin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.shop-container {
+    margin-top: -100px;
+}
+
+.product-container {
+    margin-top: -50px;
+}
+
+#carouselExampleAutoplaying {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.image-wrapper {
+    max-width: 960px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.base-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* max-width: 960px; */
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    height: auto;
+}
+
+.image1 {
+    left: 0%;
+    top: 10%;
+
+}
+
+.image2 {
+    left: 30%;
+    top: 10%;
+
+}
+
+.image3 {
+    left: 60%;
+    top: 10%;
+}
+
+.image4 {
+    left: 5%;
+    top: 50%;
+}
+
+.image5 {
+    left: 37%;
+    top: 50%;
+}
+
+.image6 {
+    left: 68%;
+    top: 50%;
+}
+
+.concept-image{
+    position: absolute;
+    bottom: 0px;
+    width: 25%;
+    height: auto;
+}
